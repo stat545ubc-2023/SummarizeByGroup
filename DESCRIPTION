@@ -8,6 +8,7 @@ Description: Given a data frame of multiple columns, this package provides a fun
 License: MIT + file LICENSE
 Imports: 
     tidyverse,
+    dplyr,
     MASS
 Suggests: 
     testthat (>= 3.0.0)

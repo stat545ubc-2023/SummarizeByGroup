@@ -27,7 +27,6 @@ compute the Count, Sum, and Mean of the metric variable grouped by the group var
 }
 \examples{
 library(MASS)
-library(tidyverse)
 fn.Summarize.by.Group(Insurance, 'District', 'Claims')
 fn.Summarize.by.Group(Insurance, 'District', 'Holders')
 }

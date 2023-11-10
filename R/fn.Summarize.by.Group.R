@@ -6,15 +6,17 @@
 #' @param group a string of non-numeric variable to be grouped by
 #' @param metric a string of numeric metric on which statistics to be computed
 #' @param ... not used.
+#' @importFrom dplyr %>%
+#' @importFrom dplyr group_by
+#' @importFrom dplyr summarize
+#' @importFrom dplyr ungroup
 #' @export
 #' @return a data frame with 4 columns: Group - Count - Sum - Mean
 #'
 #' @examples
 #' library(MASS)
-#' library(tidyverse)
 #' fn.Summarize.by.Group(Insurance, 'District', 'Claims')
 #' fn.Summarize.by.Group(Insurance, 'District', 'Holders')
-
 fn.Summarize.by.Group <- function(df, group, metric, ...) {
   if(!(is.data.frame(df))) {
     stop('df must be a data frame.')
