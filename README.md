@@ -6,7 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SummarizeByGroup is to …
+The goal of SummarizeByGroup is to create summary statistics of a
+numeric variable (counts, total, average) grouped by a categorical
+variable in a data frame.
 
 ## Installation
 
@@ -20,7 +22,7 @@ devtools::install_github("stat545ubc-2023/SummarizeByGroup")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the function:
 
 ``` r
 library(SummarizeByGroup)

@@ -7,7 +7,6 @@ Authors@R:
 Description: Given a data frame of multiple columns, this package provides a function to create summary statistics of a numeric variable grouped by a categorical variable.
 License: MIT + file LICENSE
 Imports: 
-    tidyverse,
     dplyr,
     MASS
 Suggests: 
@@ -15,3 +14,4 @@ Suggests:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Config/testthat/edition: 3
