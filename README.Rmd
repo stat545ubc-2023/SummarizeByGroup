@@ -1,0 +1,37 @@
+---
+title: "SummarizeByGroup"
+author: "Thu Nguyen"
+date: "2023-11-08"
+# output: html_document
+output: github_document
+Roxygen: list(markdown = TRUE)
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Installation
+
+
+The `SummarizeByGroup` package can be installed directly from Github with
+
+
+```{r Installation}
+devtools::install_github("stat545ubc-2023/SummarizeByGroup")
+```
+
+
+### Examples
+
+Using the `Insurace` dataset from the `MASS` package as an example data frame
+
+```{r Examples}
+library(MASS)
+fn.Summarize.by.Group(Insurance, 'District', 'Claims')
+fn.Summarize.by.Group(Insurance, 'District', 'Holders')
+```
+

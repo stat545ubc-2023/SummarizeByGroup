@@ -1,0 +1,16 @@
+Package: SummarizeByGroup
+Title: Summary Statistics from a Numeric Variable Grouped by a Categorical Variable
+Version: 0.1.0
+Authors@R: 
+    person("Thu", "Nguyen", role = c("aut", "cre"), email = "thu.nguyen@stat.ubc.ca", 
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Given a data frame of multiple columns, this package provides a function to create summary statistics of a numeric variable grouped by a categorical variable.
+License: MIT + file LICENSE
+Imports: 
+    tidyverse,
+    MASS
+Suggests: 
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
