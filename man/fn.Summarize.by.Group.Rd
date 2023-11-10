@@ -2,7 +2,7 @@
 % Please edit documentation in R/fn.Summarize.by.Group.R
 \name{fn.Summarize.by.Group}
 \alias{fn.Summarize.by.Group}
-\title{Summarize a metric variable grouped by a categorical variable}
+\title{Create summary statistics of a numeric variable grouped by a categorical variable in a data frame}
 \usage{
 fn.Summarize.by.Group(df, group, metric, ...)
 }
@@ -19,7 +19,7 @@ fn.Summarize.by.Group(df, group, metric, ...)
 a data frame with 4 columns: Group - Count - Sum - Mean
 }
 \description{
-Summarize a metric variable grouped by a categorical variable
+Create summary statistics of a numeric variable grouped by a categorical variable in a data frame
 }
 \details{
 Given a data frame, a categorical (group) variable and a numeric (metric) variable,

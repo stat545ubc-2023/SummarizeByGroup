@@ -1,4 +1,4 @@
-#' @title Summarize a metric variable grouped by a categorical variable
+#' @title Create summary statistics of a numeric variable grouped by a categorical variable in a data frame
 #' @details Given a data frame, a categorical (group) variable and a numeric (metric) variable,
 #'          compute the Count, Sum, and Mean of the metric variable grouped by the group variable
 #'
