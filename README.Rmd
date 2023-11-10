@@ -26,7 +26,7 @@ You can install the development version of SummarizeByGroup from [GitHub](https:
 
 ``` r
 # install.packages("devtools")
-<!-- devtools::install_github("stat545ubc-2023/SummarizeByGroup") -->
+devtools::install_github("stat545ubc-2023/SummarizeByGroup")
 ```
 
 ## Example
@@ -34,10 +34,9 @@ You can install the development version of SummarizeByGroup from [GitHub](https:
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-# library(SummarizeByGroup)
-## basic example code
-# library(MASS)
-# fn.Summarize.by.Group(Insurance, 'District', 'Claims')
-# fn.Summarize.by.Group(Insurance, 'District', 'Holders')
+library(SummarizeByGroup)
+library(MASS)
+fn.Summarize.by.Group(Insurance, 'District', 'Claims')
+fn.Summarize.by.Group(Insurance, 'District', 'Holders')
 ```
 
